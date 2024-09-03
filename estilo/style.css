@@ -1,0 +1,180 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf);
+}
+
+:root {
+    --cor1: #C5EBD6;
+    --cor2: #83E1AD;
+    --cor3: #3DDC84;
+    --cor4: #2FA866;
+    --cor5: #063D1E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.link {
+    color: var(--cor5);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(to bottom, #3DDC84 0%, #063D1E 100%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+}
+
+header > h1 {
+    font: 3em "Bebas Neue", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 1px 4px 2px #00000063;
+}
+
+header > h2 {
+    font: 14px 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 1px 4px 2px #00000063;
+}
+
+header > nav {
+    margin: auto 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+nav > a {
+    margin: auto;
+    font: normal bold 14px 'Arial', sans-serif;
+    text-decoration: none;
+    color: white;
+    transition-duration: .5s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+body {
+    background-color: var(--cor2);
+}
+ 
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 850px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+    border-radius: 5px;
+}
+
+p {
+    font: 1em 'Arial' ;
+    text-align: left;
+    margin: 10px;
+    text-indent: 2em;
+    word-spacing: 3px;
+}
+
+article > h1 {
+    padding: 20px;
+}
+
+h1 {
+    margin-left: 10px;
+    text-align: left;
+    font: 2em 'idroid';
+    color: #006600;
+    text-indent: 5px;
+}
+
+aside > h1 {
+    font-size: 20px;
+    background-image: linear-gradient(to right, #88ca968c, hsla(133, 38%, 66%, 0.055));
+}
+
+picture > img {
+    width: 100%;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.aprender_mais {
+    background-color: #88ca96;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.aprender_mais h1 {
+    color: white;
+    font: bolder 1em 'Arial';
+    background-color: #4cb14c;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.aprender_mais ul {
+    margin: auto;
+    display: inline-block;
+    margin: auto 50px;
+    text-indent: 10px;
+    padding: 0px 70px;
+}
+
+.aprender_mais li {
+    margin: auto;
+    font: bold 13px 'Arial';
+    text-decoration: underline;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
+    font: normal 1em 'Arial';
+    margin-top: 15px;
+    padding: 5px;
+}
+
+footer > strong { 
+    color: white;
+    font: bold 1em 'Arial';
+}
+
+.small {
+    width: 50%;
+}
